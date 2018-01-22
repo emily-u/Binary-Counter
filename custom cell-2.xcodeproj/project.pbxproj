@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A11D81142011470F0063D70A /* customDeligate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11D81132011470F0063D70A /* customDeligate.swift */; };
 		A16A21302011204900CF1F35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16A212F2011204900CF1F35 /* AppDelegate.swift */; };
-		A16A21322011204900CF1F35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16A21312011204900CF1F35 /* ViewController.swift */; };
+		A16A21322011204900CF1F35 /* CustomCellsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16A21312011204900CF1F35 /* CustomCellsViewController.swift */; };
 		A16A21352011204900CF1F35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16A21332011204900CF1F35 /* Main.storyboard */; };
 		A16A21372011204900CF1F35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A16A21362011204900CF1F35 /* Assets.xcassets */; };
 		A16A213A2011204900CF1F35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A16A21382011204900CF1F35 /* LaunchScreen.storyboard */; };
 		A16A21452011204900CF1F35 /* custom_cell_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16A21442011204900CF1F35 /* custom_cell_2Tests.swift */; };
 		A16A21502011204900CF1F35 /* custom_cell_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16A214F2011204900CF1F35 /* custom_cell_2UITests.swift */; };
+		A16A215E201121B900CF1F35 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16A215D201121B900CF1F35 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A11D81132011470F0063D70A /* customDeligate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customDeligate.swift; sourceTree = "<group>"; };
 		A16A212C2011204900CF1F35 /* custom cell-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "custom cell-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16A212F2011204900CF1F35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A16A21312011204900CF1F35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A16A21312011204900CF1F35 /* CustomCellsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellsViewController.swift; sourceTree = "<group>"; };
 		A16A21342011204900CF1F35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A16A21362011204900CF1F35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A16A21392011204900CF1F35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		A16A214B2011204900CF1F35 /* custom cell-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "custom cell-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16A214F2011204900CF1F35 /* custom_cell_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_cell_2UITests.swift; sourceTree = "<group>"; };
 		A16A21512011204900CF1F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A16A215D201121B900CF1F35 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				A16A212F2011204900CF1F35 /* AppDelegate.swift */,
-				A16A21312011204900CF1F35 /* ViewController.swift */,
+				A16A21312011204900CF1F35 /* CustomCellsViewController.swift */,
+				A11D81132011470F0063D70A /* customDeligate.swift */,
 				A16A21332011204900CF1F35 /* Main.storyboard */,
+				A16A215D201121B900CF1F35 /* CustomCell.swift */,
 				A16A21362011204900CF1F35 /* Assets.xcassets */,
 				A16A21382011204900CF1F35 /* LaunchScreen.storyboard */,
 				A16A213B2011204900CF1F35 /* Info.plist */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A16A21322011204900CF1F35 /* ViewController.swift in Sources */,
+				A16A21322011204900CF1F35 /* CustomCellsViewController.swift in Sources */,
+				A11D81142011470F0063D70A /* customDeligate.swift in Sources */,
+				A16A215E201121B900CF1F35 /* CustomCell.swift in Sources */,
 				A16A21302011204900CF1F35 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,9 +435,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5N6KUT89B;
 				INFOPLIST_FILE = "custom cell-2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codingdojo.custom-cell-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codingdojo.Cold-Call";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -441,9 +451,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5N6KUT89B;
 				INFOPLIST_FILE = "custom cell-2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codingdojo.custom-cell-2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codingdojo.Cold-Call";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
